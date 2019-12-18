@@ -23,7 +23,7 @@ class MicrosoftLogin():
         time.sleep(1)
         browser.find_element_by_id(next_button).click()
 
-        time.sleep(10)
+        time.sleep(1)
 
         pw = browser.find_element_by_id(pw_field)
         pw.clear()
